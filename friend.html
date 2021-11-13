@@ -36,27 +36,58 @@
       <div class="status-bar__column">
         <span>79%</span>
         <!-- 배터리 아이콘-->
-        <i class="fas fa-battery-three-quarters fa-2x"></i>
+        <i class="fas fa-battery-three-quarters"></i>
         <!-- 충전 아이콘-->
-        <i class="fas fa-bolt fa-2x"></i>
+        <i class="fas fa-bolt"></i>
       </div>
     </div>
 
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friend</h1>
+      <!--상단 아이콘-->
+      <div class="screen-header__icons">
+        <!--검색 아이콘-->
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <!--음악 아이콘-->
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <!--설정 아이콘-->
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <!-- 프로필 위의 구역-->
+    <a id="friedns-display-link">
+      <i class="fas fa-info-circle"></i>
+      Friends 'Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
     <nav class="nav">
+      <!--하단 아이콘-->
       <ul class="nav__ul">
+        <!-- 유저 아이콘-->
         <li class="nav__li">
           <a href="friend.html" class="nav__a">
             <i class="fas fa-user fa-2x"></i>
           </a>
         </li>
+        <!-- 메시지 아이콘-->
         <li class="nav__li">
-          <a href="#" class="nav__a"><i class="far fa-comment fa-2x"></i></a>
+          <a href="#" class="nav__a">
+            <span class="nav__notification"> 1</span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
         </li>
+        <!-- 검색 아이콘-->
         <li class="nav__li">
           <a href="#" class="nav__a"><i class="fas fa-search fa-2x"></i></a>
         </li>
+        <!-- 더보기 아이콘-->
         <li class="nav__li">
-          <a href="#" class="nav__a"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+          <a href="#" class="nav__a">
+            <span class="nav__dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
         </li>
       </ul>
     </nav>

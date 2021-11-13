@@ -1,0 +1,12 @@
+#friedns-display-link {
+  text-align: center;
+  display: block;
+  background-color: #fafafafa;
+  padding: 15px 0px;
+  font-size: 16px;
+}
+
+#friedns-display-link i {
+  color: black;
+  opacity: 0.3;
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KakaoTalk Friend</title>
+    <title>KakaoTalk Chats</title>
   </head>
   <body>
     <div class="status-bar">
@@ -43,11 +43,13 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friend</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <!--상단 아이콘-->
       <div class="screen-header__icons">
         <!--검색 아이콘-->
         <span><i class="fas fa-search fa-lg"></i></span>
+        <!--채팅 추가 아이콘-->
+        <span><i class="far fa-comment-dots fa-lg"></i> </span>
         <!--음악 아이콘-->
         <span><i class="fas fa-music fa-lg"></i></span>
         <!--설정 아이콘-->
@@ -55,56 +57,24 @@
       </div>
     </header>
 
-    <!-- 프로필 위의 구역-->
-    <a id="friedns-display-link">
-      <i class="fas fa-info-circle"></i>
-      Friends 'Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
     <!--미들페이지-->
-    <main class="friends-screen">
+    <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <!--본인 이미자-->
           <img
             src="screenshots/woonho.jpg"
-            class="user-component__picture user-component__picture--xl"
+            class="user-component__picture user-component__picture"
           />
           <!--본인 이름-->
           <div class="user-component__text">
             <h4 class="user-component__title">한운호</h4>
-            <!--<h6 class="user-component__subtitle">술은 몸에 해로워요</h6>-->
+            <h6 class="user-component__subtitle">재밌는 프론트 엔드 시간~</h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <!--채널-->
-      <div class="friends-screen__channel">
-        <!--채널시작 줄-->
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up"></i>
-        </div>
-        <div class="user-component">
-          <!--채널 이미지-->
-          <div class="user-component__column">
-            <img
-              src="screenshots/woonho.jpg"
-              class="user-component__picture user-component__picture--sm"
-            />
-            <div class="user-component__text">
-              <h4
-                class="user-component__title user-component__title--not--bold"
-              >
-                Channel
-              </h4>
-            </div>
-          </div>
-          <div class="user-component__column user-component__column__2">
-            <span>2</span>
-            <i class="fas fa-chevron-right fa-xs"></i>
-          </div>
+        <div class="user-component__column__time">
+          <span class="user-component__time">21:22</span>
+          <div class="badge time_badge">1</div>
         </div>
       </div>
     </main>
@@ -115,23 +85,25 @@
         <!-- 유저 아이콘-->
         <li class="nav__li">
           <a href="friend.html" class="nav__a">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
           </a>
         </li>
         <!-- 메시지 아이콘-->
-        <li class="nav__li">
+        <li class="nav__li nav__li__chk">
           <a href="chats.html" class="nav__a">
             <span class="nav__notification badge"> 1</span>
-            <i class="far fa-comment fa-2x"></i
-          ></a>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
         </li>
         <!-- 검색 아이콘-->
         <li class="nav__li">
-          <a href="#" class="nav__a"><i class="fas fa-search fa-2x"></i></a>
+          <a href="find.html" class="nav__a">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
         </li>
         <!-- 더보기 아이콘-->
         <li class="nav__li">
-          <a href="#" class="nav__a">
+          <a href="more.html" class="nav__a">
             <span class="nav__dot"></span>
             <i class="fas fa-ellipsis-h fa-2x"></i>
           </a>

@@ -10,3 +10,21 @@
   color: black;
   opacity: 0.3;
 }
+
+.friedns-screen {
+  padding: 0px 25px;
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+}
+
+.friends-screen__channel-header {
+  margin: 0px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  opacity: 0.5;
+}

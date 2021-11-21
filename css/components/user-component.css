@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .user-component,
@@ -69,10 +70,30 @@
   opacity: 0.5;
 }
 
-.user-component__column__time {
+.fa-file-alt__column__time {
   margin-right: 20px;
   padding-top: 20px;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
+}
+
+.fa-file-alt {
+  margin-right: 20px;
+}
+
+.user-component__text {
+  position: relative;
+}
+.user-component__Exclamation {
+  border: 2px solid rgba(250, 0, 0, 0.7);
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 10px;
+  color: rgba(250, 0, 0, 0.7);
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
 }

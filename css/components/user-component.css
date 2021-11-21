@@ -62,7 +62,6 @@
 }
 .user-component__column:last-child {
   color: black;
-  opacity: 0.5;
 }
 .user-component__time {
   display: block;

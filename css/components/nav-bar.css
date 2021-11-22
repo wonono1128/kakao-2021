@@ -26,6 +26,19 @@ a {
   position: absolute;
   bottom: 15px;
   left: 25px;
+  animation: notificationAnimation 3s ease-in-out infinite;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotate(360deg);
+  }
+  100% {
+    transform: none;
+  }
 }
 
 .nav__dot {
